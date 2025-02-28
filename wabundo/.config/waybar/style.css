@@ -1,0 +1,143 @@
+@import "mocha.css";
+
+* {
+  font-family: JetBrainsMonoNL Nerd Font;
+  font-size: 17px;
+  min-height: 0;
+}
+
+#waybar {
+  background: transparent;
+  color: @text;
+  margin: 5px 5px;
+}
+/*
+#raul{
+background-image: url("/home/user/.config/waybar/icons/workspace.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      min-width: 40px;
+      min-height: 40px;
+      border-radius: 5px;
+      padding: 5px;
+      color: transparent;
+}
+*/
+#workspaces {
+      border-radius: 0rem;
+      background: transparent;
+      margin: 5px;
+      margin-left: 1rem;
+      margin-right: 1rem;
+
+}
+
+#workspaces button {
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: transparent;
+      min-width: 40px;
+      min-height: 40px;
+      border: none;
+      box-shadow: none;
+      padding: 2px;
+      margin: 5px;
+      color: transparent; /* Ocultar el texto */
+}
+/* Iconos personalizados para cada workspace */
+#workspaces button.active{
+      background-color: rgb(150, 149, 65);
+}
+#workspaces button:nth-child(1) {
+      background-image: url("/home/raul/.config/waybar/resources/Helldivers_2_logo_PNG_(6).png");
+      background-size: cover;
+}
+
+#workspaces button:nth-child(2) {
+      background-image: url("/home/raul/.config/waybar/resources/823px-Automaton_icon.png");
+}
+
+#workspaces button:nth-child(3) {
+      background-image: url("/home/raul/.config/waybar/resources/728px-Terminid_icon.png");
+}
+
+#workspaces button:nth-child(4) {
+      background-image: url("/home/raul/.config/waybar/resources/Illuminate_Icon.png");
+}
+
+#workspaces button:nth-child(5) {
+      background-image: url("/home/raul/.config/waybar/resources/480px-Helldivers_Training_Manual_Logo.png");
+}
+
+#workspaces button:nth-child(6) {
+      background-image: url("/home/raul/.config/waybar/resources/Automaton_Logo.png");
+}
+
+#custom-music,
+#tray,
+#backlight,
+#clock,
+#battery,
+#pulseaudio,
+#custom-lock,
+#custom-notificaciones{
+  background-color: rgb(255,214,0);
+  padding: 0.5rem 1rem;
+  margin: 5px 0;
+}
+
+#clock {
+  color: red;
+  border-radius: 0px 1rem 1rem 0px;
+  margin-right: 1rem;
+}
+
+#battery {
+  color: brown;
+  border-radius: 1rem;
+}
+
+#battery.charging {
+  color: green;
+}
+
+#battery.warning:not(.charging) {
+  color: red;
+}
+
+#backlight {
+  color: black;
+}
+
+#backlight, #battery {
+    border-radius: 0;
+}
+
+#pulseaudio {
+  color: black;
+  border-radius: 1rem 0px 0px 1rem;
+  margin-left: 1rem;
+}
+
+#custom-music {
+  color: black;
+  border-radius: 1rem;
+}
+
+#custom-lock {
+    border-radius: 1rem 0px 0px 1rem;
+    color: black;
+}
+
+#custom-notificaciones{
+    margin-right: 1rem;
+    border-radius: 0px 1rem 1rem 0px;
+    color: black;
+}
+
+#tray {
+  margin-right: 1rem;
+  border-radius: 1rem;
+}
