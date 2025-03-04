@@ -1,1 +1,1 @@
-# confu
+# confu configuración
