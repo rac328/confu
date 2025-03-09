@@ -1,4 +1,4 @@
-# [![Logo configuracion](https://github.com/rac328/confu/blob/main/wabundo/.config/waybar/resources/480px-Helldivers_Training_Manual_Logo.png)](https://github.com/rac328/confu/tree/main)
+# [![Logo configuracion](https://github.com/rac328/confu/blob/main/wabundo/.config/waybar/resources/480px-Helldivers_Training_Manual_Logo.png)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 # SUPERCONFIGURACIONES
 Pasos a seguir:
