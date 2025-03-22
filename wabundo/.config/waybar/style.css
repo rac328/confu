@@ -51,28 +51,28 @@ background-image: url("/home/user/.config/waybar/icons/workspace.png");
       background-color: rgb(150, 149, 65);
 }
 #workspaces button:nth-child(1) {
-      background-image: url("/home/raul/.config/waybar/resources/Helldivers_2_logo_PNG_(6).png");
+      background-image: url("/home/raulito/.config/waybar/resources/Helldivers_2_logo_PNG_(6).png");
       background-size: cover;
 }
 
 #workspaces button:nth-child(2) {
-      background-image: url("/home/raul/.config/waybar/resources/823px-Automaton_icon.png");
+      background-image: url("/home/raulito/.config/waybar/resources/823px-Automaton_icon.png");
 }
 
 #workspaces button:nth-child(3) {
-      background-image: url("/home/raul/.config/waybar/resources/728px-Terminid_icon.png");
+      background-image: url("/home/raulito/.config/waybar/resources/728px-Terminid_icon.png");
 }
 
 #workspaces button:nth-child(4) {
-      background-image: url("/home/raul/.config/waybar/resources/Illuminate_Icon.png");
+      background-image: url("/home/raulito/.config/waybar/resources/Illuminate_Icon.png");
 }
 
 #workspaces button:nth-child(5) {
-      background-image: url("/home/raul/.config/waybar/resources/480px-Helldivers_Training_Manual_Logo.png");
+      background-image: url("/home/raulito/.config/waybar/resources/480px-Helldivers_Training_Manual_Logo.png");
 }
 
 #workspaces button:nth-child(6) {
-      background-image: url("/home/raul/.config/waybar/resources/Automaton_Logo.png");
+      background-image: url("/home/raulito/.config/waybar/resources/Automaton_Logo.png");
 }
 
 #custom-music,
