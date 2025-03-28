@@ -48,7 +48,7 @@ background-image: url("/home/user/.config/waybar/icons/workspace.png");
 }
 /* Iconos personalizados para cada workspace */
 #workspaces button.active{
-      background-color: rgb(255,255,255);
+      background-color: rgba(255, 255, 255,0.35);
 }
 #workspaces button:nth-child(1) {
       background-image: url("/home/raulito/.config/waybar/resources/Helldivers_2_logo_PNG_(6).png");
@@ -68,7 +68,7 @@ background-image: url("/home/user/.config/waybar/icons/workspace.png");
 }
 
 #workspaces button:nth-child(5) {
-      background-image: url("/home/raulito/.config/waybar/resources/480px-Helldivers_Training_Manual_Logo.png");
+      background-image: url("/home/raulito/.config/waybar/resources/Logo_Espada_Skull.png");
 }
 
 #workspaces button:nth-child(6) {
@@ -83,7 +83,7 @@ background-image: url("/home/user/.config/waybar/icons/workspace.png");
 #pulseaudio,
 #custom-lock,
 #custom-notificaciones{
-  background-color: rgb(255,214,0);
+  background-color: rgb(255,255,255);
   padding: 0.5rem 1rem;
   margin: 5px 0;
 }

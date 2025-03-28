@@ -1,0 +1,158 @@
+{
+    "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    // "width": 1280, // Waybar width
+    // Choose the order of the modules
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+        "custom/music"
+    ],
+    "modules-right": [
+        "pulseaudio",
+        "backlight",
+        "battery",
+        "clock",
+        "tray",
+        "custom/lock",
+        "custom/notificaciones"
+    ],
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "on-click": "activate",
+        "persistent-workspaces": {
+            "*": 6
+        },
+        "format-icons": {
+            "active": ""
+        }
+    },
+    "hyprland/raul": {
+        //"format": "<U+F44E>",
+        "format": "     ",
+        "tooltip": false,
+        "on-click": "activate",
+        "format-icons": {
+            "1": " ",
+            "2": " ",
+            "3": " ",
+            "4": " ",
+            "5": " ",
+            "urgent": "",
+            "active": "",
+            "default": ""
+        },
+        "persistent-workspaces": {
+            "Virtual-1": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        }
+    },
+    "hyprlandd/workspaces": {
+        "persistent-workspaces": {
+            "*": 5
+        },
+        "format": "{icon}",
+        "on-click": "activate",
+        "format-icons": {
+            "urgent": " ",
+            "active": " ",
+            "default": " "
+        },
+        "sort-by-number": true
+    },
+    "tray": {
+        "icon-size": 21,
+        "spacing": 10
+    },
+    "custom/music": {
+        "format": "  {}",
+        "escape": true,
+        "interval": 5,
+        "tooltip": false,
+        "exec": "playerctl metadata --format='{{ title }}' 2>/dev/null",
+        "on-click": "playerctl play-pause",
+        "max-length": 50
+    },
+    "clock": {
+        "timezone": "Europe/Madrid",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": " {:%d/%m/%Y}",
+        "format": " {:%H:%M}"
+    },
+    "backlight": {
+        "device": "intel_backlight",
+        "format": "{icon}",
+        "format-icons": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    "battery": {
+        "bat": "BAT0",
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    "pulseaudio": {
+        "tooltip": false,
+        // "scroll-step": 1, // %, can be a float
+        "format": "{volume}% {icon} {format_source}",
+        "format-bluetooth": "{volume}% {icon}  {format_source}",
+        "format-bluetooth-muted": "󰝟 {icon}  {format_source}",
+        "format-muted": "󰝟 {format_source}",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "󰋎",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": [
+                "",
+                "",
+                ""
+            ]
+        },
+        "on-click-right": "pavucontrol",
+        "on-click-middle": "pactl set-source-mute @DEFAULT_SOURCE@ toggle",
+        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
+    },
+    "custom/lock": {
+        "tooltip": false,
+        "on-click": "sh -c '(hyprlock)' & disown",
+        "format": " "
+    },
+    "custom/notificaciones": {
+        "tooltip": true,
+        "tooltip-format": "notificaciones",
+        "on-click": "swaync-client -t",
+        "format": " "
+    }
+}
