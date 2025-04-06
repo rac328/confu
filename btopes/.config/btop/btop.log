@@ -72,3 +72,28 @@
 
 2025/03/28 (22:16:20) | ===> btop++ v.1.4.0
 2025/03/28 (22:16:20) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/29 (15:01:50) | ===> btop++ v.1.4.0
+2025/03/29 (15:01:50) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/30 (17:47:39) | ===> btop++ v.1.4.0
+2025/03/30 (17:47:39) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/30 (17:49:24) | ===> btop++ v.1.4.0
+2025/03/30 (17:49:24) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/31 (08:49:19) | ===> btop++ v.1.4.0
+2025/03/31 (08:49:19) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/01 (20:58:32) | ===> btop++ v.1.4.0
+2025/04/01 (20:58:32) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/04/01 (20:58:32) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2025/04/04 (08:27:31) | ===> btop++ v.1.4.0
+2025/04/04 (08:27:31) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/04 (09:57:36) | ===> btop++ v.1.4.0
+2025/04/04 (09:57:36) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/04 (09:57:54) | ===> btop++ v.1.4.0
+2025/04/04 (09:57:54) | WARNING: Intel GPU: Failed to initialize PMU
