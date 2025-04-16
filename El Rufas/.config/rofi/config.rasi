@@ -1,0 +1,73 @@
+window {
+    location:   center;
+    width:      480;
+
+    background-color:   #332E2D;
+}
+
+inputbar {
+    spacing:    8px;
+    padding:    8px;
+
+    background-color:   #5eb663;
+}
+
+prompt, entry, element-icon, element-text {
+    vertical-align: 0.5;
+}
+
+entry {
+    placeholder: "The factory must grow";
+    cursor: pointer;
+    text-color: #1c1c1c;
+}
+
+prompt {
+    text-color: #1c1c1c;
+}
+
+textbox {
+    padding:            8px;
+    background-color:   #5eb663;
+}
+
+listview {
+    padding:    4px 0;
+    lines:      10;
+    columns:    1;
+
+    fixed-height:   false;
+}
+
+element {
+    padding:    8px;
+    orientation: horizontal;
+    children: [ element-icon, element-text ];
+    spacing: 5px;
+    background-color: #5eb663;
+}
+
+element normal normal {
+    text-color: #1c1c1c;
+    background-color: #8e8e8e;
+}
+
+element normal active {
+    text-color: #8e8e8e;
+}
+
+element alternate normal {
+    background-color: #8e8e8e;
+}
+
+element selected normal, element selected active {
+    background-color:   #fe5a5a;
+}
+
+element-icon {
+    size:   0.8em;
+}
+
+element-text {
+    text-color: inherit;
+}
