@@ -83,7 +83,7 @@
         "timezone": "Europe/Madrid",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": " {:%d/%m/%Y}",
-        "format": " {:%H:%M}"
+        "format": "  {:%H:%M}"
     },
     "backlight": {
         "device": "intel_backlight",
@@ -125,7 +125,7 @@
         "format-bluetooth": "{volume}% {icon}  {format_source}",
         "format-bluetooth-muted": "󰝟 {icon}  {format_source}",
         "format-muted": "󰝟 {format_source}",
-        "format-source": "{volume}% ",
+        "format-source": "  {volume}% ",
         "format-source-muted": "",
         "format-icons": {
             "headphone": "",
