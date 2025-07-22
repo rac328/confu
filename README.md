@@ -16,5 +16,10 @@ Dependencias:
 > [Kitty](https://wiki.archlinux.org/title/Kitty) Intérprete de órdenes
 > 
 > [Neovim](https://github.com/neovim/neovim) Editor de texto
-## Vista General
+## Vista General Hyprland
 ![imagen](https://github.com/user-attachments/assets/94f3e811-8803-4395-984b-f04dc9372746)
+
+## Otras consideraciones 
+
+# KDE
+Quitar el borde de las ventanas: Colores y temas > Decoraciones de las ventanas > Editar tema Brisa > Sombras y contorno > Intensidad del contorno 'Desactivado'
